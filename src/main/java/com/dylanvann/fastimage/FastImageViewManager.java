@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.PorterDuff;
 import android.os.Build;
+import android.support.annotation.Nullable;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.RequestManager;
@@ -22,8 +23,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.WeakHashMap;
-
-import javax.annotation.Nullable;
 
 import static com.dylanvann.fastimage.FastImageRequestListener.REACT_ON_ERROR_EVENT;
 import static com.dylanvann.fastimage.FastImageRequestListener.REACT_ON_LOAD_END_EVENT;

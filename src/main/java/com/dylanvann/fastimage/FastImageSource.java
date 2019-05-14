@@ -3,13 +3,12 @@ package com.dylanvann.fastimage;
 import android.content.Context;
 import android.content.res.Resources;
 import android.net.Uri;
+import android.support.annotation.Nullable;
 import android.text.TextUtils;
 
 import com.bumptech.glide.load.model.GlideUrl;
 import com.bumptech.glide.load.model.Headers;
 import com.facebook.react.views.imagehelper.ImageSource;
-
-import javax.annotation.Nullable;
 
 public class FastImageSource extends ImageSource {
     private static final String DATA_SCHEME = "data";
